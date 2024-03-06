@@ -10,12 +10,11 @@ function Footer() {
         <div className="footer" id="footer">
             <img  draggable="false"src={logo} alt='logo' className='footer-logo' />
             <div className="footer-contacts">
-                <p className="footer-phone-number">+380 12 345 6789</p>
+                <p className="footer-phone-number">+380 95 467 27 10</p>
                 <article className="networks">
                     <a href=""><img src={telegram} alt="telegram" className="footer-network" /></a>
-                    <a href=""><img src={instagram} alt="instagram" className="footer-network" /></a>
-                    <a href=""><img src={viber} alt="viber" className="footer-network" /></a>
-                    <a href=""><img src={facebook} alt="facebook" className="footer-network" /></a>
+                    <a href="https://www.instagram.com/geralera6/"><img src={instagram} alt="instagram" className="footer-network" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010638945146&locale=uk_UA"><img src={facebook} alt="facebook" className="footer-network" /></a>
                 </article>
             </div>
         </div>
