@@ -44,7 +44,7 @@ function Header() {
                 <div className={`header__menu ${isOpen ? "open" : ""}`}>
                     <ul className='header__nav'>
                         <li><a href="/GeraSki01/">Головна</a></li>
-                        <li><a href="/#about-us">Про нас</a></li>
+                        <li><a href="/GeraSki01/#about-us">Про нас</a></li>
                         <li><a href="/GeraSki01/galerey">Галерея</a></li>
                         <li><a href= '/GeraSki01/price-summer'>Літні прайси</a></li>
                         <li><a href= '/GeraSki01/price-winter'>Зимні прайси</a></li>
