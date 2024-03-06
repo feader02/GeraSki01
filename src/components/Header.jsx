@@ -3,8 +3,7 @@ import "../css/Header.css";
 import logo from "../images/logo-h.png";
 import CloseMenu from '../images/close_burger.png'
 import OpenMenu from '../images/open_burger.png'
-import { useState, useRef } from 'react';
-import { Link } from "react-router-dom";
+import { useState } from 'react';
 // import gsap from "gsap"
 // import ScrollToPlugin from "gsap/ScrollToPlugin"
 
@@ -25,11 +24,11 @@ function Header() {
                 </div>
 
                 <ul className='header__nav  '>
-                    <li><a href="/">Головна</a></li>
+                    <li><a href="/GeraSki01/">Головна</a></li>
                     <li><a href="/#about-us">Про нас</a></li>
-                    <li><a href="/galerey">Галерея</a></li>
-                    <li><a href= '/price-summer'>Літні прайси</a></li>
-                    <li><a href= '/price-winter'>Зимні прайси</a></li>
+                    <li><a href="/GeraSki01/galerey">Галерея</a></li>
+                    <li><a href= '/GeraSki01/price-summer'>Літні прайси</a></li>
+                    <li><a href= '/GeraSki01/price-winter'>Зимні прайси</a></li>
                     <li><a href="#footer">Контакти</a></li>
                 </ul>
                 <a className='header__button' href="#footer">зателефонувати</a>
@@ -44,11 +43,11 @@ function Header() {
                 </div>
                 <div className={`header__menu ${isOpen ? "open" : ""}`}>
                     <ul className='header__nav'>
-                        <li><a href="/">Головна</a></li>
+                        <li><a href="/GeraSki01/">Головна</a></li>
                         <li><a href="/#about-us">Про нас</a></li>
-                        <li><a href="">Тури</a></li>
-                        <li><a href= '/price-summer'>Літні прайси</a></li>
-                        <li><a href= '/price-winter'>Зимні прайси</a></li>
+                        <li><a href="/GeraSki01/galerey">Галерея</a></li>
+                        <li><a href= '/GeraSki01/price-summer'>Літні прайси</a></li>
+                        <li><a href= '/GeraSki01/price-winter'>Зимні прайси</a></li>
                         <li><a href="#footer">Контакти</a></li>
                     </ul>
                     <a className='header__button' href="#footer">зателефонувати</a>

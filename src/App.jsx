@@ -19,10 +19,10 @@ function App() {
     </header>
         <Router>
             <Routes>
-                <Route path='/' element={<MainPage />} />
-                <Route path='/price-winter' element={<PriceWinter />} />
-                <Route path='/price-summer' element={<PriceSummer />} />
-                <Route path='/galerey' element={<Galerey />} />
+                <Route path='/GeraSki01/' element={<MainPage />} />
+                <Route path='/GeraSki01/price-winter' element={<PriceWinter />} />
+                <Route path='/GeraSki01/price-summer' element={<PriceSummer />} />
+                <Route path='/GeraSki01/galerey' element={<Galerey />} />
             </Routes>
         </Router>
      <footer>
