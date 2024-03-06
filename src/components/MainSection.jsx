@@ -40,7 +40,7 @@ function MainSection() {
               <div className="img-content">
                 <img src={SpecialBlock5} alt="content" className="img" draggable = 'false'/>
               </div>
-              <a href="/price-winter">
+              <a href="/GeraSki01/price-winter">
                 <p className="main-btn">Прайси</p>
               </a>
             </div>
@@ -61,7 +61,7 @@ function MainSection() {
                   <div className="img-content">
                     <img src={SpecialBlock9} alt="content" className="img" draggable = 'false'/>
                   </div>
-                  <a href="/price-summer">
+                  <a href="/GeraSki01/price-summer">
                     <p className="main-btn">Прайси</p>
                   </a>
                 </div>
@@ -112,7 +112,7 @@ function MainSection() {
                 </div>
               </div>
               </Slider>
-              <a href="/price-winter">
+              <a href="/GeraSki01/price-winter">
                 <p className="main-btn">Прайси</p>
               </a>
             </div>
@@ -174,7 +174,7 @@ function MainSection() {
                   </div>
                   </div>
                   </Slider>
-                  <a href="/price-summer">
+                  <a href="/GeraSki01/price-summer">
                     <p className="main-btn">Прайси</p>
                   </a>
                 </div>
