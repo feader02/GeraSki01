@@ -1,0 +1,332 @@
+@media screen and (min-width: 1451px) {
+    .about-skate-h1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .about-skate-info-img{
+        width: 200px;
+        height: 100px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 70%;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-left: 30px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        background-color: #272727;
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        padding-inline: 80px;
+        padding-block: 15px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 100px;
+        cursor: pointer;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+    .about-skate-img{
+        width: 600px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1111px) {
+    .about-skate-h1 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .about-skate-info-img{
+        width: 200px;
+        height: 100px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 70%;
+        font-size: 19px;
+        margin-top: 30px;
+        margin-left: 30px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        background-color: #272727;
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        padding-inline: 80px;
+        padding-block: 15px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 100px;
+        cursor: pointer;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+    .about-skate-img{
+        width: 400px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 1110px) and (min-width: 921px) {
+    .about-skate-h1 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 76px;
+        margin-top: 20px;
+    }
+    .about-skate-info-img{
+        width: 200px;
+        height: 60px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 70%;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 30px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        background-color: #272727;
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        padding-inline: 80px;
+        padding-block: 15px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 100px;
+        cursor: pointer;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+    .about-skate-img{
+        width: 350px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 920px) and (min-width: 561px){
+    .about-skate-img {
+        display: none;
+    }
+    .about-skate-h1 {
+        font-size: 22px;
+        margin-left: 110px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .about-skate-info-img{
+        width: 200px;
+        height: 60px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 95%;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 30px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        background-color: #272727;
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-65%);
+        margin-top: 50px;
+        padding-inline: 80px;
+        padding-block: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+    .about-skate-img{
+        width: 350px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 560px) and (min-width: 401px){
+    .about-skate-img {
+        display: none;
+
+    }
+    .about-skate-h1 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .about-skate-info-img{
+        width: 200px;
+        height: 60px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 95%;
+        font-size: 15px;
+        margin-top: 0;
+        margin-left: 30px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 20px;
+        background-color: #272727;
+        color: white;
+        display: inline;
+        padding-block: 10px;
+        padding-inline: 30px;
+        border-radius: 15px;
+        position: relative;
+        top: 25px;
+        left: 30%;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-skate-img {
+        display: none;
+    }
+    .about-skate-h1 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about-skate-div{
+        display: flex;
+        width: 95.8%;
+    }
+    .about-skate-info {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .about-skate-info-img{
+        height: 40px;
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .about-skate-info-p{
+        width: 95%;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: 10px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+    }
+    .about-skate-info-btn{
+        font-size: 20px;
+        background-color: #272727;
+        color: white;
+        display: inline;
+        padding-block: 10px;
+        padding-inline: 30px;
+        border-radius: 15px;
+        position: relative;
+        top: 25px;
+        left: 17%;
+        -webkit-transition: 0.5s all;
+    }
+    .about-skate-info-btn:hover {
+        background-color: #353535;
+        transition: 0.5s all;
+    }
+}

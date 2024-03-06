@@ -1,0 +1,94 @@
+@media screen and (min-width: 1406px) {
+    .price-s {
+        background: url(./images/price-img.png);
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 80px;
+            width: 100px;
+            margin-top: 200px;
+            width: 326px;
+            font-weight: 600;
+            color: #272727;
+        }
+        .prices-s__img {
+            margin-top: 100px;
+            width: 1406px;
+            height: 513px;
+        }
+        .prices-s__img-md {
+            display: none;
+        }
+        .prices-s__img-lg {
+           display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1405px) and (min-width:700px) {
+    .price-s {
+        background: url(./images/price-img.png);
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 60px;
+            margin-top: 200px;
+            width: 246px;
+            font-weight: 600;
+            color: #272727;
+        }
+        .prices-s__img {
+            display: none;
+        }
+        .prices-s__img-md {
+            display: none;
+            
+        }
+        .prices-s__img-lg {
+           
+           margin-top: 100px;
+            width: 696px;
+            height: 549px;
+        }
+    }
+}
+
+
+@media screen and (max-width:699px) {
+    .price-s {
+        background: url(./images/price-img.png);
+        height: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 50px;
+            margin-top: 100px;
+            width: 200px;
+            font-weight: 600;
+            color: #272727;
+        }
+        .prices-s__img {
+            display: none;
+        }
+        .prices-s__img-md {
+            margin-top: 50px;
+            width: 358px;
+            height: 940px;    
+        }
+        .prices-s__img-lg {
+            display: none;
+          
+        }
+    }
+}

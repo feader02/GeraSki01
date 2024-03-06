@@ -1,0 +1,16 @@
+.price {
+    background: url(../images/price-img.png);
+    height: 1000px;
+    h1 {
+        font-size: 80px;
+        width: 100px;
+        margin-left: 800px;
+        padding-top: 200px;
+        font-weight: 600;
+        color: #272727;
+    }
+    img {
+        margin-top: 50px;
+        margin-left: 160px;
+    }
+}

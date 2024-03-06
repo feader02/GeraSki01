@@ -1,0 +1,202 @@
+.main-section {
+    background: url('../images/main-bgd.png');
+    height: 1350px;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+@media screen and (min-width: 1751px)  {
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -360px;
+    }
+    .travel {
+        position: relative;
+        right: -360px;
+    }
+    .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1651px) and (max-width: 1750px) {
+    .main-section {
+        height: 1350px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -300px;
+    }
+    .travel {
+        position: relative;
+        right: -300px;
+    }
+    .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
+    .main-section {
+        height: 1180px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -280px;
+    }
+    .travel {
+        position: relative;
+        right: -280px;
+    }
+        .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .main-section {
+        height: 1050px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -280px;
+    }
+    .travel {
+        position: relative;
+        right: -280px;
+    }
+        .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1071px) and (max-width: 1200px) {
+    .main-section {
+        height: 1050px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -230px;
+    }
+    .travel {
+        position: relative;
+        right: -230px;
+    }
+        .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1070px) {
+    .main-section {
+        height: 1050px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 172px;
+    }
+    .group {
+        position: relative;
+        left: -160px;
+    }
+    .travel {
+        position: relative;
+        right: -160px;
+    }
+        .main-content_tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 920px) and (min-width: 521px) {
+    .main-section {
+        height: 1550px;
+    }
+    .main-content {
+        display: none;
+    }
+    .travel, .group {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .main-content_tablet {
+        padding-top: 172px;
+
+        /* Слайдер */
+        .slick-slider{
+            width: 500px;
+            margin: 0 auto;
+        }
+        /* Ограничивающая оболочка */
+        .slick-list {
+            width: 500px;
+            overflow: hidden;
+        }
+        /* Лента слайдов */
+        .slick-track{
+            width: auto;
+            display: flex;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 300px) {
+    .main-section {
+        height: 1150px;
+    }
+    .travel, .group {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .main-content {
+        display: none;
+    }
+    .main-content_tablet {
+        padding-top: 180px;
+
+        /* Слайдер */
+        .slick-slider{
+            width: 300px;
+            margin: 0 auto;
+        }
+        .slick-list {
+            width: 300px;
+            overflow: hidden;
+        }
+        /* Лента слайдов */
+        .slick-track{
+            width: auto;
+            display: flex;
+        }
+    }
+}
