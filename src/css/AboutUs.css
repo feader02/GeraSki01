@@ -403,6 +403,7 @@
         width: 400px;
         margin-top: 20px;
         line-height: 25px;
+        margin-bottom: 50px;
         h1 {
             font-size: 25px;
             font-weight: 500;
@@ -498,6 +499,7 @@
         width: 95%;
         margin-top: 20px;
         line-height: 25px;
+        
         h1 {
             font-size: 25px;
             font-weight: 500;
@@ -527,6 +529,7 @@
     .about-us-slider {
         .slick-slider{
             position: relative;
+            margin-bottom: 50px;
         }
         .slick-list {
             width: 500px;
@@ -623,6 +626,7 @@
     .about-us-slider {
         .slick-slider{
             position: relative;
+            margin-bottom: 50px;
         }
         .slick-list {
             width: 290px;
