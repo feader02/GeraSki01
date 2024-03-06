@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://feader02.github.io",
+  "homepage": "https://feader02.github.io/GeraSki01",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
