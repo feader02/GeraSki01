@@ -32,12 +32,12 @@ function Galerey() {
             </div>
             {activeButton === 'Зима' &&
                 <div>
-                    <img draggable="false" className='galery-ski-img' src={ski} alt="Зима" />
+                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Зима" />
                 </div>
             }
             {activeButton === 'Літо' &&
                 <div>
-                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Літо" />
+                    <img draggable="false" className='galery-ski-img' src={ski} alt="Літо" />
                 </div>
             }
         </div>
