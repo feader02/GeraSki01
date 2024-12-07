@@ -21,13 +21,13 @@ function Galerey() {
                     className={classnames('Galerey-ski-btn Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Зима' })}
                     onClick={() => handleClick('Зима')}
                 >
-                    Зима
+                    Літо
                 </article>
                 <article
                     className={classnames('Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Літо' })}
                     onClick={() => handleClick('Літо')}
                 >
-                    Літо
+                    Зима
                 </article>
             </div>
             {activeButton === 'Зима' &&
