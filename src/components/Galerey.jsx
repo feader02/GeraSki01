@@ -18,10 +18,10 @@ function Galerey() {
             <h1 className='Galerey-h1'>Моменти гуртків, турів та мандрівок</h1>
             <div className='Galerey-btns'>
                 <article
-                    className={classnames('Galerey-ski-btn Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Літо' })}
-                    onClick={() => handleClick('Літо')}
+                    className={classnames('Galerey-ski-btn Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Зима' })}
+                    onClick={() => handleClick('Зима')}
                 >
-                    Літо
+                    Зима
                 </article>
                 <article
                     className={classnames('Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Зима' })}
@@ -30,9 +30,9 @@ function Galerey() {
                     Зима
                 </article>
             </div>
-            {activeButton === 'Літо' &&
+            {activeButton === 'Зима' &&
                 <div>
-                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Літо" />
+                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Зима" />
                 </div>
             }
             {activeButton === 'Зима' &&
