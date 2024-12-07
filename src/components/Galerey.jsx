@@ -18,26 +18,26 @@ function Galerey() {
             <h1 className='Galerey-h1'>Моменти гуртків, турів та мандрівок</h1>
             <div className='Galerey-btns'>
                 <article
-                    className={classnames('Galerey-ski-btn Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Зима' })}
-                    onClick={() => handleClick('Зима')}
+                    className={classnames('Galerey-ski-btn Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Літо' })}
+                    onClick={() => handleClick('Літо')}
                 >
                     Літо
                 </article>
                 <article
-                    className={classnames('Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Літо' })}
-                    onClick={() => handleClick('Літо')}
+                    className={classnames('Galerey-btn Galerey-active-btn', { 'Galerey-btn-active': activeButton === 'Зима' })}
+                    onClick={() => handleClick('Зима')}
                 >
                     Зима
                 </article>
             </div>
-            {activeButton === 'Зима' &&
-                <div>
-                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Зима" />
-                </div>
-            }
             {activeButton === 'Літо' &&
                 <div>
-                    <img draggable="false" className='galery-ski-img' src={ski} alt="Літо" />
+                    <img draggable="false" className='galery-ski-img' src={iceskates} alt="Літо" />
+                </div>
+            }
+            {activeButton === 'Зима' &&
+                <div>
+                    <img draggable="false" className='galery-ski-img' src={ski} alt="Зима" />
                 </div>
             }
         </div>
